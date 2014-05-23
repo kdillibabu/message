@@ -1,0 +1,2 @@
+CREATE TABLE users_log (ul_id int primary key, ul_message varchar(200), foreign key(ul_id) references users_login(u_id));
+
